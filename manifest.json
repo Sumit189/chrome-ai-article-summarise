@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Personalized News Summarizer",
+  "name": "Personalized articles Summarizer",
   "version": "1.0",
-  "description": "Summarizes and rewrites news articles in your preferred tone and style.",
+  "description": "Summarizes and rewrites articles in your preferred tone and style.",
   "permissions": ["activeTab", "scripting", "storage"],
   "background": {
     "service_worker": "background.js"
