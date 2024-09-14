@@ -1,5 +1,9 @@
 document.getElementById("summarizeBtn").addEventListener("click", () => {
   const selectedTone = document.getElementById("toneSelector").value;
+  // clear the output fields
+  document.getElementById("summaryOutput").textContent = "";
+  document.getElementById("rewrittenOutput").textContent = "";
+  
   chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
       const tabId = tabs[0].id;
       chrome.scripting.executeScript({
