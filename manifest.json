@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Personalized articles Summarizer",
+  "name": "Personalized Aticle Summarizer",
   "version": "1.0",
   "description": "Summarizes and rewrites articles in your preferred tone and style.",
   "permissions": ["activeTab", "scripting", "storage"],
